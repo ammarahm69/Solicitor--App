@@ -88,7 +88,34 @@
     box-shadow: 2px 2px 7px grey;
 }
 
-.row {
+.end {
     display: flex;
     justify-content: flex-end;
+}
+
+.about-section{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #3b3939;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+}
+.about-section .heading{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+.btn{
+    padding: 15px 30px;
+    font: 14px;
+}
+.img-wrap {
+    position: relative;
+    bottom: 100px;
+}
+.img-wrap img {
+    height: 500px;
+    width: 92%;
 }
