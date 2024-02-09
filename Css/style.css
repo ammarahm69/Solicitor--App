@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Dis";
+    ;
+    src: url(../Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* nav{
+    background-color: #a19d9d5d;
+} */
+
+.container>a {
+    color: white;
+    font-weight: bolder;
+    font-size: 26px;
+
+}
+
+.icon {
+    color: white;
+    cursor: pointer;
+}
+
+.icon i:hover {
+    cursor: pointer;
+    color: #3b3939;
+    /* background-color: black    ; */
+
+}
+
+.navbar-nav a {
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav-link.active a {
+    color: aliceblue;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    opacity: 100;
+    z-index: -1;
+}
+
+#hero::before {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.mt-5 h1 {
+    font-size: 4rem;
+    color: white;
+}
+.mt-5 p{
+    color: rgb(190, 179, 179);
+}
+.btn-group button{
+    padding: 15px 25px;
+    border: none;
+    margin-left: 32px;
+    
+}
+.btn-group button:hover{
+    box-shadow: 2px 2px 7px grey;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
