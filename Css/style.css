@@ -224,3 +224,13 @@
     font-size: 16px;
     
 }
+/* Test -SEC */
+.test-sec{
+    width: 100%;
+    height: auto;
+    background-color:#3b3939;
+}
+.text-img img {
+    width: 19%;
+    border-radius: 100%;
+}
