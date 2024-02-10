@@ -94,7 +94,7 @@
 }
 
 .about-section{
-    margin-top: 20px;
+    margin-top: 12%;
     width: 100%;
     height: auto;
     background-color: #3b3939;
@@ -113,9 +113,52 @@
 }
 .img-wrap {
     position: relative;
-    bottom: 100px;
+    bottom: 133px;
 }
 .img-wrap img {
     height: 500px;
-    width: 92%;
+    width: 105%;
+}
+.bg-custom-light {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Service Section */
+
+.section{
+    width: 100%;
+    height:auto;
+    background-color: #2e2c2c;
+}
+.section .heading {
+    font-size: 49px;
+    font-weight: 700;
+    color: white;
+}
+#radius{
+    border-radius: 40%;
+}
+/* Why Us */
+.why-section{
+    width: 100%;
+    height: auto;
+    background-color: #1d1c1c;
+}
+.sec{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+   
+}
+.img-2 {
+    width: 100%;
+    position: relative;
+    top: -12px;
+}
+#stamp {
+    height: 30%;
 }
