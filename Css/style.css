@@ -116,9 +116,9 @@
     bottom: 133px;
 }
 .img-wrap img {
-    height: 500px;
-    width: 105%;
-}
+    height: 475px;
+    width: 100%;
+}   
 .bg-custom-light {
     background-color: rgba(255, 255, 255, 0.02);
 }
@@ -161,4 +161,66 @@
 }
 #stamp {
     height: 30%;
+}
+.just {
+    font-size: 41px;
+    /* color: wheat; */
+    font-style: italic;
+    font-weight: 700;
+}
+/* Section-3 starts Here */
+.sec-3{
+    width: 100%;
+    height:auto;
+    background-color: #2e2c2c;
+}
+.nav {
+    display: flex;
+     justify-content: space-between;
+     /* border-bottom: 1px solid rgb(75, 75, 75); */
+}
+.nav a{
+    list-style: none;
+    text-decoration: none;
+    color: #8f8c8c;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.active {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+.ser-img img {
+    width: 100%;
+}
+/* Practing Section */
+.sec-4{
+    width: 100%;
+    height: auto;
+    background-color: #3b3939;
+}
+.media-2 {
+    background-color: #0f0f11;
+    padding: 20px;
+    padding-bottom: 80px;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    position: relative;
+}
+.media-2:hover{
+    background-color: #0d6efd;
+}
+.media-2:nth-child(1){
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.media-2:nth-child(2){
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    
 }
