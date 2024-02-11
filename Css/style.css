@@ -235,3 +235,18 @@
     width: 19%;
     border-radius: 100%;
 }
+/* Sec-list */
+.sec-list{
+    width: 100%;
+    height: 900px;
+    background-color: #1d1c1c;
+}
+ul{
+    list-style-type: none;
+    color: #fff;
+
+}
+li a{
+    color: #fff;
+    /* padding-top: 6px; */
+}
