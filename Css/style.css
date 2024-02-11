@@ -288,3 +288,18 @@ li a{
     color: white;
     border-radius: 8px;
 }
+/* Footer  */
+.site-footer{
+    width: 100%;
+    height: Auto;
+    background-color: #131212;
+
+}
+.un-style li a{
+    list-style: none;
+    color: #8f8c8c;
+    /* padding: 10px; */
+}
+ i:hover{
+    color: #037ef3;
+}
