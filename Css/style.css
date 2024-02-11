@@ -262,3 +262,29 @@ li a{
     top: 5%;
     left: 2%;
 }
+/* Write To us Section */
+.form{
+    width: 100%;
+    height: auto;
+    background-color: #131212;
+}
+.form input{
+    width: 70%;
+    padding: 7px 20px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    outline: none;
+}
+.form textarea{
+    background-color: #252525;
+    outline: none;
+    color: white;
+}
+.form button{
+    padding: 10px 20px;
+    background-color: #037ef3;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
