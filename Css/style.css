@@ -250,3 +250,15 @@ ul{
 li a{
     color: #fff;
 }
+/* Peace & Order Section */
+.order-sec{
+    width: 100%;
+    height: auto;
+    background-color:#1d1c1c;
+    position: relative;
+}
+.order{
+    position: relative;
+    top: 5%;
+    left: 2%;
+}
